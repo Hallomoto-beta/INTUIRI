@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="sheetstyle" href="assets/style.css">
+
+    <title>New Home Party</title>
+
+</head>
+<header>
+    <!--NAVBAR-->
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">INTUIRI</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">INTUIRI</a></li>
+                <li><a href="#">New Home Party</a></li>
+                <li><a href="#">BEcode</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="bg-image" style="background-image: url(assets/Image/SUMMER_cover_facebook.png);"></div>
+    
+    
+    
+    
+
+
+</header>
+<body>
+    
+<p>hello contact? </p>
+<main>
+  <article>
+      <section class="frmContact">
+          
+          <div class="container-md p-3 my-3 border align-content-lg-center" id="content">
+              
+              <div class="row">
+                  <div class="col-md-6">
+                      
+                      
+                      <fieldset>
+                          <legend>New Home Birthday Party </legend>
+                          <section id="adresse">  
+                              <ul class="horaire">
+                                  
+                                  <li>
+                                      <p>Rue Saint-piat, 4</p>
+                                      <p>7500 tournai</p>
+                                  </li>
+                                  
+                              </ul>
+                              <hr id="ligne">
+                          </section>
+                          <ul class="horaire">
+                              <li class="day">
+                                  <p>Sat: 7PM - until the little end of the night</p>
+                                  <p>Sam: 19h00 - Jusqu'au bout de la nuit </p>
+                          </ul>
+                          <section id="flyers">  
+                            <ul class="flyers">
+                                
+                                <li>
+                                    <p>image flyers ici </p>
+                                    
+                                </li>
+                                
+                            </ul>
+                            <hr id="ligne">
+                        </section>
+                      </fieldset>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="container">
+                          
+                          <form class="was-validated" action="cible.php" method="POST">
+                              <h2>Contact</h2>
+                              <fieldset>
+                                  <legend>Contact </legend>
+                                  <div class="form-group">
+                                      
+                                      <label for="firstName">Prénom</label>
+                                      <input type="text" class="form-control border border-dark" id="fName" name="fName" placeholder="Firstname" required>
+                                      <div class="valid-feedback">Valid</div>
+                                      <div class="invalid-feedback">Required</div>
+                                  </div>
+                                  <div class="form-group">
+                                      
+                                      <label for="lastname">Nom</label>
+                                      <input type="text" class="form-control border border-dark" id="lName" name="lName" placeholder="Lastname" required>
+                                      <div class="valid-feedback">Valid</div>
+                                      <div class="invalid-feedback">Required</div>
+                                  </div>
+                                      <label for="sex">Sexe :</label>
+                                      <div>
+                                          <input type="radio" id="man" name="genre" value="man" checked require>
+                                          <label for="man">♂</label>
+                                      
+                                          <input type="radio" id="woman" name="genre" value="woman">
+                                          <label for="woman">♀</label>
+                                          
+                                          <input type="radio" id="No_Genre" name="No_Genre" value="No_Genre" checked require>
+                                          <label for="man">secret</label>
+                                      </div>
+
+                                  <div class="form-group">
+                                      
+                                      <label for="email">Email</label>
+                                      <input type="email" class="form-control border border-dark" id="email" name="eMail" placeholder="Email" required>
+                                      <div class="valid-feedback">Valid</div>
+                                      <div class="invalid-feedback">Required</div>
+                                  </div>
+                                  <div class="form-group">
+                                    
+                                      <label for="country">Pays</label>
+                                      <input type="text" class="form-control border border-dark" id="country" name="country" placeholder="Country" required>
+                                      <div class="valid-feedback">Valid</div>
+                                      <div class="invalid-feedback">Required</div>
+                                  </div>                                        
+                                  <div class="form-group">
+                                      
+                                      <label for="selection">Comment puis je vous aider ? </label>
+                                      <select id="selection" class="form-control border border-dark" name="why">
+                                      <option value="Other">Other...</option>
+                                      <option value="Information">BEcode</option>
+                                      <option value="Price">INTUIRI</option>
+                                      <option value="Assistance">New Home Birthday Party </option>
+                                      </select>
+                                  </div>
+                                      <div class="form-group">
+                                          <label for="message">Message</label>
+                                          
+                                          <textarea class="form-control border border-dark" id="message" rows="3" name="message" required></textarea>
+                                          <div class="valid-feedback">Valid</div>
+                                          <div class="invalid-feedback">Required</div>
+                                      </div>
+                                      <div class="form-group form-check">
+                                      </div>
+                                      
+                                      <input class="btn btn-primary" type="submit" value="Envoyer" id="submit">
+                              </fieldset>
+                          </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      </section>
+  </article>
+</main>
+</body>
+</html>
